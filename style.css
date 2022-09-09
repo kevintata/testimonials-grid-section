@@ -21,7 +21,7 @@ main{
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(2, 300px);
     gap: 30px;
-    padding: 5em 10em;
+    padding: 12em;
 }
 
 #patrick img{
