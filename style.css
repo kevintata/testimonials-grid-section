@@ -17,7 +17,11 @@ body{
 }
 
 main{
+    max-width: 1110px;
     display: grid;
+    /* For responsive full page remove max-width, justify-content, and align items */
+    justify-content: center;
+    align-items: center;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(2, 300px);
     gap: 30px;
@@ -136,19 +140,13 @@ p{
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (max-width:1285px) {
+@media screen and (max-width:1355px) {
 
-    /* #container{
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        flex-direction: column;
-        margin: auto;
-    } */
     main{
         display: grid;
         justify-content: center;
-        grid-template-columns:repeat(1, 326px);
+        align-items: center;
+        grid-template-columns:1fr;
         grid-template-rows: repeat(89, 1px);
         gap: 20px;
         padding: 2em 1em;
