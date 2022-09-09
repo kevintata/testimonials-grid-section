@@ -63,7 +63,7 @@ p{
     grid-row: 1;
     grid-column: 1/3;
     background: var(--Moderate-violet);
-    background-image: url(/images/bg-pattern-quotation.svg);
+    background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: 23rem 0;
     padding: 2em;
